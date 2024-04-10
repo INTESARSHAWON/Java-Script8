@@ -13,8 +13,8 @@
 
 
 
-// html, css a JS theke kivabe Access kora jay, Change kora jay eta dekhsi
-// Js teke kivabe add delete kora jay eta dekhbo ebar
+// // html, css a JS theke kivabe Access kora jay, Change kora jay eta dekhsi
+// // Js teke kivabe add delete kora jay eta dekhbo ebar
 
 let newButton1= document.createElement("button");
 console.dir(newButton1);
@@ -22,3 +22,12 @@ newButton1.innerText="I am append button";
 
 let div1 = document.querySelector("div");
 div1.append(newButton1); //node er pore jukto hoise
+
+
+
+let newButton2= document.createElement("button");
+console.dir(newButton2);
+newButton2.innerText="I am prepend button";
+
+let div2 = document.querySelector("div");
+div2.prepend(newButton2); //node er age (pre) jukto hoise
