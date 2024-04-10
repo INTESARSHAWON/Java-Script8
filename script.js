@@ -31,3 +31,13 @@ newButton2.innerText="I am prepend button";
 
 let div2 = document.querySelector("div");
 div2.prepend(newButton2); //node er age (pre) jukto hoise
+
+
+
+
+let newButton3= document.createElement("button");
+console.dir(newButton3);
+newButton3.innerText="I am before button";
+
+let div3 = document.querySelector("div");
+div3.before(newButton3); //node er ekdom age jukto hobe
