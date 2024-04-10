@@ -41,3 +41,14 @@ newButton3.innerText="I am before button";
 
 let div3 = document.querySelector("div");
 div3.before(newButton3); //node er ekdom age jukto hobe
+
+
+
+
+let newButton4= document.createElement("button");
+console.dir(newButton4);
+newButton4.innerText="I am after button";
+
+let div4 = document.querySelector("div");
+div4.after(newButton4); //node er ekdom pore jukto hobe
+
