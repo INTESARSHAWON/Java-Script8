@@ -52,3 +52,10 @@ newButton4.innerText="I am after button";
 let div4 = document.querySelector("div");
 div4.after(newButton4); //node er ekdom pore jukto hobe
 
+
+
+let heading= document.createElement("h1");
+heading.innerHTML="<i> I am learing JS append, prepend, before, after </i>";
+
+let body= document.querySelector("body");
+body.before(heading); //node er ekdom age jukto hobe
