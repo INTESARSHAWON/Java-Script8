@@ -80,3 +80,11 @@ anotherButton.style.color="white";
 let targettingBody= document.querySelector("body");
 targettingBody.before(anotherButton);
 
+
+
+
+//exercise2
+
+let newParagraph= document.querySelector("p");
+newParagraph.classList.add("anotherclass");
+// .classList.remove() diye delete o kora jay, MDN a sob ache
