@@ -59,3 +59,11 @@ heading.innerHTML="<i> I am learing JS append, prepend, before, after </i>";
 
 let body= document.querySelector("body");
 body.before(heading); //node er ekdom age jukto hobe
+
+
+
+//delete
+let paragraph= document.querySelector("p");
+paragraph.remove();
+
+//append child ar removechild ei duita use korte jante hobe, porte bolse MDN theke dekhay nai
