@@ -67,3 +67,16 @@ let paragraph= document.querySelector("p");
 paragraph.remove();
 
 //append child ar removechild ei duita use korte jante hobe, porte bolse MDN theke dekhay nai
+
+
+
+
+//exercise1
+let anotherButton= document.createElement("button");
+anotherButton.innerText="I am exercise button";
+anotherButton.style.backgroundColor="red";
+anotherButton.style.color="white";
+
+let targettingBody= document.querySelector("body");
+targettingBody.before(anotherButton);
+
